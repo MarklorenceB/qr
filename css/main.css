@@ -141,6 +141,10 @@ header {
   z-index: 9999;
 }
 
+.h-auto {
+  height: 120vh !important;
+}
+
 .home-banner {
   background-position: center center;
   background-repeat: no-repeat;
@@ -202,6 +206,92 @@ header {
   color: #fff;
   font-family: "Samsung Sharp Sans", sans-serif;
   text-align: center;
+}
+.home-banner .wrapper .content-2 h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+}
+.home-banner .wrapper .content-2 span {
+  color: #fff;
+  font-family: "Samsung Sharp Sans", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+.home-banner .wrapper .content-2 .drop-wrapper {
+  padding: 50px 20px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+.home-banner .wrapper .content-2 .drop-wrapper .drop-zone {
+  margin-top: 0;
+  padding: 0;
+  display: flex;
+  height: auto;
+  flex-direction: column;
+}
+.home-banner .wrapper .content-2 .drop-wrapper .drop-zone img {
+  margin: 0 0 10px;
+}
+.home-banner .wrapper .content-2 .drop-wrapper .drop-details {
+  margin: 0;
+}
+.home-banner .wrapper .content-2 .drop-wrapper .drop-details p {
+  color: #555a6b !important;
+  font-family: "Samsung Sharp Sans", sans-serif;
+  font-size: 18px;
+}
+.home-banner .wrapper .content-2 .drop-wrapper h3 {
+  font-family: "Samsung Sharp Sans", sans-serif;
+  font-size: 15px;
+  color: #555a6b;
+  margin-top: 10px;
+}
+.home-banner .wrapper .content-2 .drop-wrapper h4 {
+  font-family: "Samsung Sharp Sans", sans-serif;
+  font-size: 15px;
+  color: #555a6b;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.home-banner .wrapper .content-2 .drop-wrapper .drop-zone__prompt {
+  font-size: 15px;
+  font-family: "Samsung Sharp Sans", sans-serif;
+  font-weight: 600;
+  color: #181818;
+  background-color: #bd1733;
+  color: #fff;
+  padding: 20px;
+  width: 40%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.home-banner .wrapper .content-2 .description {
+  background-color: #fff;
+  margin-top: 40px;
+  padding: 20px;
+}
+.home-banner .wrapper .content-2 .description p {
+  color: #555a6b;
+  font-size: 20px;
+  font-family: "Samsung Sharp Sans", sans-serif;
+  font-weight: 500;
+}
+.home-banner .wrapper .content-2 .btn-submit {
+  background-color: #bd1733;
+  padding: 20px 80px;
+  margin-top: 30px;
+  font-family: "Samsung Sharp Sans", sans-serif;
+  text-align: center;
+  border-radius: 5px;
+  width: 50%;
+}
+.home-banner .wrapper .content-2 .btn-submit a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
 }
 
 .signup {
@@ -266,4 +356,159 @@ header {
   border-radius: 15px;
   border: none;
   margin-top: 30px;
+}
+
+.drop-zone {
+  max-width: 100%;
+  height: 80px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  color: #cccccc;
+  border: 4px dashed #fff;
+  border-radius: 50px;
+  margin-top: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.drop-zone img {
+  margin-right: 20px;
+}
+
+.drop-zone--over {
+  border-style: solid;
+}
+
+.drop-zone__input {
+  display: none;
+}
+
+.drop-zone__input2 {
+  display: none;
+}
+
+.drop-zone__thumb {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #cccccc;
+  background-size: cover;
+  position: relative;
+}
+
+.drop-zone__thumb::after {
+  content: attr(data-label);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 0;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.75);
+  font-size: 14px;
+  text-align: center;
+}
+
+.drop-zone__prompt {
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  color: #33302f;
+}
+.drop-zone__prompt b {
+  border-bottom: 1px solid #000;
+}
+
+.drop-details {
+  margin-top: 30px;
+}
+.drop-details p {
+  font-size: 18px;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+.upload-details {
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+.upload-details ul li .img-uploaded {
+  padding: 15px;
+  position: relative;
+}
+.upload-details ul li .img-uploaded:before {
+  content: "";
+  height: 27px;
+  width: 27px;
+  border-top: 1px solid #df0025;
+  border-left: 1px solid #df0025;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.upload-details ul li .img-uploaded:after {
+  content: "";
+  height: 27px;
+  width: 27px;
+  border-bottom: 1px solid #df0025;
+  border-right: 1px solid #df0025;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.upload-details ul li .img-uploaded img.order__image {
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.upload-container {
+  text-align: center;
+  background-color: #fff;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.progress-container {
+  width: 300px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.progress-bar {
+  height: 20px;
+  width: 0;
+  background-color: #2c4999;
+  transition: width 0.3s ease-in-out;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  gap: 50px;
+}
+
+.progress-text {
+  margin-right: 10px;
+}
+
+.thumbnail {
+  max-width: 100%;
+  max-height: 100px;
+}
+
+#actionIcon {
+  font-size: 24px;
+  margin-right: 10px;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
