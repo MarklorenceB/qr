@@ -113,12 +113,21 @@
   color: #fff;
   text-transform: uppercase;
   font-family: "Bebas Neue", sans-serif;
-  font-size: 46px;
+  font-size: 20px !important;
   position: relative;
   z-index: 20;
   font-weight: 600;
   line-height: 45px;
   text-align: center;
+}
+.profile-blocks .profile-wrapper .vid-button {
+  position: absolute;
+  top: 120px;
+}
+.profile-blocks .profile-wrapper .vid-button img {
+  width: 80px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .civilian-profile {
@@ -150,7 +159,7 @@
 }
 
 .back-btn {
-  background-color: #BD1733;
+  background-color: #bd1733;
   font-size: 23px;
   font-family: "Sharp Sans", sans-serif;
   font-weight: bold;
@@ -182,7 +191,7 @@
   background: #fff;
 }
 .service-desc::-webkit-scrollbar-thumb {
-  background: #2C4999;
+  background: #2c4999;
 }
 .service-desc .content {
   background-color: #fff;
@@ -192,7 +201,7 @@
 .service-desc .content .inner {
   border-radius: 10px;
   padding: 30px;
-  border: 1px solid #2C4999;
+  border: 1px solid #2c4999;
 }
 .service-desc .content h3 {
   font-size: 35px;
@@ -223,6 +232,9 @@
   line-height: 1;
 }
 
+.image-frame {
+  position: relative;
+}
 .image-frame img {
   width: 100%;
   height: 530px;
@@ -237,4 +249,13 @@
   text-align: center;
   color: #fff;
   font-weight: 600;
+}
+.image-frame .vid-button {
+  position: absolute;
+  top: 0;
+}
+.image-frame .vid-button img {
+  width: 80px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }/*# sourceMappingURL=other.css.map */

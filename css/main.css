@@ -6,6 +6,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 ul,
@@ -180,19 +181,21 @@ header {
   gap: 30px;
   align-items: center;
 }
-.home-banner .wrapper .content .btn-home .btn-login a {
+.home-banner .wrapper .content .btn-home .btn-login {
   background-color: #bd1733;
   padding: 20px 80px;
+  border-radius: 5px;
+}
+.home-banner .wrapper .content .btn-home .btn-login a {
   text-transform: uppercase;
   font-weight: bold;
   color: #fff;
   font-family: "Samsung Sharp Sans", sans-serif;
   text-align: center;
-  border-radius: 5px;
 }
 .home-banner .wrapper .content .btn-home .btn-scan {
   background-color: #2c4999;
-  padding: 18px 40px;
+  padding: 18px 50px;
   border-radius: 5px;
 }
 .home-banner .wrapper .content .btn-home .btn-scan img {
@@ -479,7 +482,7 @@ header {
 }
 
 .progress-container {
-  width: 300px;
+  width: 100%;
   margin-top: 20px;
   position: relative;
 }
@@ -500,6 +503,8 @@ header {
 
 .progress-text {
   margin-right: 10px;
+  color: #2c4999;
+  font-size: 15px;
 }
 
 .thumbnail {
@@ -511,4 +516,8 @@ header {
   font-size: 24px;
   margin-right: 10px;
   cursor: pointer;
+}
+
+.m-view {
+  display: none;
 }/*# sourceMappingURL=main.css.map */
