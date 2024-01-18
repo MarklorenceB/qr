@@ -155,6 +155,84 @@
     background-color: blue;
     height: auto;
   }
+
+  .civilian-profile .profile-image {
+    width: 70%;
+    height: 300px;
+  }
+  .civilian-profile h2 {
+    font-size: 30px;
+  }
+  .civilian-profile h3 {
+    font-size: 20px;
+  }
+
+  .prof-1 {
+    background-position: center center;
+    background-image: url(".././images/prof.png") !important;
+    height: auto;
+  }
+  .common-conntent-block {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  .profile-blocks .profile-wrapper {
+    width: 160px;
+    min-height: 150px;
+  }
+  .profile-blocks .profile-wrapper h3 {
+    font-size: 15px !important;
+  }
+  .back-btn {
+    font-size: 15px;
+  }
+
+  .back-btn img {
+    width: 30px;
+  }
+  .service-desc .content p {
+    font-size: 13px;
+  }
+  .service-desc .content h3 {
+    font-size: 25px;
+  }
+  .image-frame img {
+    height: 450px;
+  }
+  .profile-blocks .profile-wrapper .vid-button {
+    top: 50px;
+  }
+  .profile-blocks .profile-wrapper .vid-button img {
+    width: 50px;
+  }
+
+  .home-banner .wrapper .content-2 h1 {
+    font-size: 30px;
+  }
+  .h-auto-2 {
+    height: auto !important;
+    padding-top: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+  }
+  .home-banner .wrapper .content-2 .drop-wrapper .drop-zone__prompt {
+    width: 100%;
+    font-size: 15px;
+  }
+  .home-banner .wrapper .content-2 .description p {
+    font-size: 15px;
+  }
+  .home-banner .wrapper .content-2 .btn-submit {
+    width: 100%;
+  }
+  .home-banner .wrapper .content-2 .drop-wrapper .drop-details p {
+    font-size: 15px;
+  }
+  .home-banner .wrapper .content-2 span {
+    font-size: 15px;
+  }
 }
 @media (max-width: 500px) {
 }

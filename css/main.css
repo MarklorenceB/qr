@@ -146,6 +146,10 @@ header {
   height: 120vh !important;
 }
 
+.h-auto-2 {
+  height: 120vh !important;
+}
+
 .home-banner {
   background-position: center center;
   background-repeat: no-repeat;
