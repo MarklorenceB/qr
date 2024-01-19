@@ -147,7 +147,11 @@ header {
 }
 
 .h-auto-2 {
-  height: 120vh !important;
+  height: 110vh !important;
+}
+
+.h-auto-3 {
+  height: 130vh !important;
 }
 
 .home-banner {
@@ -219,7 +223,7 @@ header {
   font-size: 60px;
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 .home-banner .wrapper .content-2 span {
   color: #fff;
@@ -227,10 +231,32 @@ header {
   font-weight: 500;
   font-size: 20px;
 }
+.home-banner .wrapper .content-2 .head-upload {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.home-banner .wrapper .content-2 .head-upload h5 {
+  color: #555a6b;
+  font-weight: normal;
+}
+.home-banner .wrapper .content-2 .head-upload a {
+  background-color: #bd1733;
+  padding: 15px 25px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+}
 .home-banner .wrapper .content-2 .drop-wrapper {
-  padding: 50px 20px;
+  padding: 30px 20px;
   background-color: #fff;
   margin-top: 20px;
+  border-radius: 5px;
 }
 .home-banner .wrapper .content-2 .drop-wrapper .drop-zone {
   margin-top: 0;
@@ -248,7 +274,7 @@ header {
 .home-banner .wrapper .content-2 .drop-wrapper .drop-details p {
   color: #555a6b !important;
   font-family: "Samsung Sharp Sans", sans-serif;
-  font-size: 18px;
+  font-size: 15px;
 }
 .home-banner .wrapper .content-2 .drop-wrapper h3 {
   font-family: "Samsung Sharp Sans", sans-serif;
@@ -264,21 +290,101 @@ header {
   margin-top: 10px;
 }
 .home-banner .wrapper .content-2 .drop-wrapper .drop-zone__prompt {
-  font-size: 15px;
+  font-size: 13px;
   font-family: "Samsung Sharp Sans", sans-serif;
   font-weight: 600;
   color: #181818;
   background-color: #bd1733;
   color: #fff;
-  padding: 20px;
-  width: 40%;
+  padding: 15px;
+  width: 25%;
   border-radius: 5px;
   margin-bottom: 20px;
 }
+.home-banner .wrapper .content-2 .upload-container-2 {
+  text-align: center;
+  background-color: #fff;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-1 .prof img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-1 .name-con {
+  width: 40%;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-1 .name-con .name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between !important;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-1 .name-con .name h3 {
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+  margin-left: -50px;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-1 .name-con .name h4 {
+  font-size: 12px;
+  font-weight: normal;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-1 img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #e1e1e1;
+  padding: 20px 30px;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-2 h3 {
+  font-size: 15px;
+  color: #77839f;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-2 h4 {
+  font-size: 12px;
+  font-weight: normal;
+  color: #979fb8;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-2 img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-2 .graph {
+  width: 50%;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-2 .graph .name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-2 .graph img {
+  width: 100%;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-2 .img-check {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.home-banner .wrapper .content-2 .upload-container-2 .download-2 .img-check h6 {
+  color: #2c4999;
+  font-size: 30px;
+}
 .home-banner .wrapper .content-2 .description {
   background-color: #fff;
-  margin-top: 40px;
+  margin-top: 20px;
   padding: 20px;
+  border-radius: 5px;
 }
 .home-banner .wrapper .content-2 .description p {
   color: #555a6b;
@@ -296,6 +402,148 @@ header {
   width: 50%;
 }
 .home-banner .wrapper .content-2 .btn-submit a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+}
+
+.home-banner-upload {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110vh;
+  padding-top: 250px;
+  min-height: 100vh;
+  position: relative;
+}
+.home-banner-upload .wrapper {
+  align-items: center;
+}
+.home-banner-upload .wrapper .content h1 {
+  color: #fff;
+  font-size: 80px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+.home-banner-upload .wrapper .content .upload-list {
+  margin-bottom: 40px;
+}
+.home-banner-upload .wrapper .content .upload-list .list {
+  background-color: #bd1733;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+}
+.home-banner-upload .wrapper .content .upload-list .list h2 {
+  color: #d2d2d2;
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+.home-banner-upload .wrapper .content .upload-list .list p {
+  color: #d2d2d2;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+.home-banner-upload .wrapper .descript-form h1 {
+  color: #fff;
+  font-size: 80px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+.home-banner-upload .wrapper .descript-form form label {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.home-banner-upload .wrapper .descript-form form input {
+  width: 100%;
+  border: none;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  color: #7d7d7d;
+  background-color: rgba(0, 0, 0, 0.5); /* Setting opacity with RGBA */
+}
+.home-banner-upload .wrapper .descript-form form input::-moz-placeholder {
+  color: #7d7d7d;
+}
+.home-banner-upload .wrapper .descript-form form input::placeholder {
+  color: #7d7d7d;
+}
+.home-banner-upload .wrapper .descript-form form textarea {
+  border-radius: 5px;
+  width: 100%;
+  padding: 20px;
+  color: #7d7d7d;
+  background-color: rgba(0, 0, 0, 0.5); /* Setting opacity with RGBA */
+}
+.home-banner-upload .wrapper .descript-form form textarea::-moz-placeholder {
+  color: #7d7d7d;
+}
+.home-banner-upload .wrapper .descript-form form textarea::placeholder {
+  color: #7d7d7d;
+}
+.home-banner-upload .wrapper .descript-form form .btn-submit {
+  background-color: #bd1733;
+  padding: 20px 80px;
+  margin-top: 30px;
+  font-family: "Samsung Sharp Sans", sans-serif;
+  text-align: center;
+  border-radius: 5px;
+  width: 40%;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+}
+.home-banner-upload .wrapper .descript-form2 h1 {
+  color: #fff;
+  font-size: 80px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+.home-banner-upload .wrapper .descript-form2 textarea {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+}
+.home-banner-upload .wrapper .descript-form2 textarea::-moz-placeholder {
+  font-size: 20px;
+  color: #575757;
+}
+.home-banner-upload .wrapper .descript-form2 textarea::placeholder {
+  font-size: 20px;
+  color: #575757;
+}
+.home-banner-upload .wrapper .descript-form2 button {
+  display: grid;
+  justify-content: center;
+}
+.home-banner-upload .wrapper .descript-form2 .btn {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+.home-banner-upload .wrapper .descript-form2 .btn .btn-submit {
+  background-color: #bd1733;
+  padding: 20px 80px;
+  margin-top: 30px;
+  font-family: "Samsung Sharp Sans", sans-serif;
+  text-align: center;
+  border-radius: 5px;
+  width: 250px;
+  border: none;
   text-transform: uppercase;
   font-weight: bold;
   color: #fff;

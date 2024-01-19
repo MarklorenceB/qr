@@ -9,6 +9,16 @@
     height: 110vh !important;
     padding: 200px 20px;
   }
+
+  .h-auto2 {
+    height: auto;
+    padding: 200px 20px;
+  }
+
+  .h-auto-3 {
+    height: auto !important;
+    padding: 60px 20px;
+  }
   .home-1 {
     background-position: center center;
     background-image: url(".././images/mobile-1.png") !important;
@@ -57,7 +67,7 @@
   }
   .home-banner .wrapper .content h1 {
     font-size: 55px;
-    text-align: center;
+    text-shadow: none;
   }
   .home-banner .wrapper .content h1 {
     margin-top: -5px !important;
@@ -74,19 +84,24 @@
     justify-content: center;
 
     width: 100% !important;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-bottom: 20px;
   }
   .home-banner .wrapper .content p {
-    font-size: 15px;
+    font-size: 13px;
     text-align: center;
+    margin-bottom: 30px !important;
   }
+
   .home-banner .wrapper .content .btn-home .btn-login a {
     width: 100% !important;
   }
-
+  .home-banner .wrapper .content .btn-home .btn-login {
+    border-radius: 10px;
+  }
   .home-banner .wrapper .content .btn-home .btn-scan img {
-    width: 10%;
+    width: 20%;
+    object-fit: contain;
   }
   .home-banner .wrapper .content .btn-home .btn-scan {
     text-align: center;
@@ -95,7 +110,9 @@
     background-color: transparent;
     border: 1px solid #fff;
     margin-top: 20px;
-    width: 100%;
+    width: 70%;
+    margin-left: 40px;
+    border-radius: 10px;
   }
   .signup {
     padding-top: 180px;
@@ -119,7 +136,9 @@
   .d-view {
     display: none;
   }
-
+  .album-section {
+    padding: 150px 10px;
+  }
   .album-section .section-heading {
     font-size: 25px;
   }
@@ -182,7 +201,8 @@
     min-height: 150px;
   }
   .profile-blocks .profile-wrapper h3 {
-    font-size: 15px !important;
+    font-size: 25px !important;
+    line-height: 1.2;
   }
   .back-btn {
     font-size: 15px;
@@ -195,7 +215,8 @@
     font-size: 13px;
   }
   .service-desc .content h3 {
-    font-size: 25px;
+    font-size: 18px;
+    text-align: center;
   }
   .image-frame img {
     height: 450px;
@@ -206,7 +227,9 @@
   .profile-blocks .profile-wrapper .vid-button img {
     width: 50px;
   }
-
+  .home-banner {
+    padding-top: 160px !important;
+  }
   .home-banner .wrapper .content-2 h1 {
     font-size: 30px;
   }
@@ -228,10 +251,118 @@
     width: 100%;
   }
   .home-banner .wrapper .content-2 .drop-wrapper .drop-details p {
-    font-size: 15px;
+    font-size: 12px;
   }
   .home-banner .wrapper .content-2 span {
     font-size: 15px;
+  }
+  .home-banner-upload .wrapper .content h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .home-banner-upload {
+    padding-top: 150px;
+  }
+  .home-banner-upload .wrapper .content .upload-list {
+    margin-bottom: 10px;
+  }
+  .home-banner-upload .wrapper .content .upload-list .list {
+    margin-bottom: 20px !important;
+  }
+  .home-banner-upload .wrapper .content .upload-list .list h2 {
+    font-size: 15px;
+  }
+  .home-banner-upload .wrapper .content .upload-list .list p {
+    font-size: 10px;
+  }
+  .home-banner-upload .wrapper .content .upload-list .list {
+    height: 150px !important;
+  }
+  .navbar-brand {
+    text-align: center;
+  }
+  .navbar-brand img {
+    width: 80%;
+  }
+  .home-banner .wrapper .content-2 .drop-wrapper h3 {
+    font-size: 12px;
+  }
+  .home-banner .wrapper .content-2 .head-upload h5 {
+    font-size: 15px;
+  }
+  .home-banner .wrapper .content-2 .head-upload a {
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+  }
+  .home-banner .wrapper .content-2 .btn-submit a {
+    font-size: 15px;
+  }
+  .home-banner .wrapper .content-2 .drop-wrapper .drop-zone__prompt {
+    width: 50%;
+    font-size: 12px;
+  }
+  .home-banner-upload .wrapper .descript-form h1 {
+    font-size: 40px;
+  }
+
+  .home-banner-upload .wrapper .descript-form form .btn-submit {
+    width: 100%;
+    font-size: 15px;
+  }
+  .home-banner-upload .wrapper .descript-form form label {
+    font-size: 15px;
+  }
+  .home-banner-upload .wrapper .descript-form2 h1 {
+    font-size: 35px;
+  }
+  .home-banner-upload .wrapper .descript-form2 textarea::placeholder {
+    font-size: 15px;
+  }
+  .home-banner-upload .wrapper .descript-form2 .btn .btn-submit {
+    width: 300px;
+  }
+
+  .home-banner
+    .wrapper
+    .content-2
+    .upload-container-2
+    .download-1
+    .name-con
+    .name
+    h3 {
+    margin-left: 0;
+    font-size: 12px;
+  }
+  .home-banner .wrapper .content-2 .upload-container-2 .download-1 {
+    padding: 20px 15px;
+  }
+  .home-banner .wrapper .content-2 .upload-container-2 .download-2 {
+    padding: 20px 15px;
+  }
+  .home-banner .wrapper .content-2 .upload-container-2 .download-1 .name-con {
+    width: auto;
+  }
+  .home-banner
+    .wrapper
+    .content-2
+    .upload-container-2
+    .download-1
+    .name-con
+    .name {
+    gap: 10px;
+  }
+  .home-banner .wrapper .content-2 .upload-container-2 .download-2 h3 {
+    font-size: 12px;
+  }
+  .home-banner
+    .wrapper
+    .content-2
+    .upload-container-2
+    .download-2
+    .img-check
+    h6 {
+    font-size: 20px;
   }
 }
 @media (max-width: 500px) {
