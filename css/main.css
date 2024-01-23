@@ -804,26 +804,4 @@ header {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
   z-index: 998; /* Ensure the overlay is behind the popup but above the page content */
-}
-
-.custom-scrollbar {
-  overflow-y: scroll;
-  scrollbar-width: thin; /* Firefox */
-  scrollbar-color: #2c4999 #fff; /* Firefox */
-}
-
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  .custom-scrollbar {
-    overflow-y: scroll;
-    overflow-x: hidden;
-  }
-  .custom-scrollbar::-webkit-scrollbar {
-    width: 10px;
-  }
-  .custom-scrollbar::-webkit-scrollbar-track {
-    background: #fff;
-  }
-  .custom-scrollbar::-webkit-scrollbar-thumb {
-    background: #2c4999;
-  }
 }/*# sourceMappingURL=main.css.map */
