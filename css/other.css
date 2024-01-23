@@ -179,7 +179,8 @@
 .service-desc {
   overflow-y: auto;
   max-height: 550px;
-  padding-right: 20px;
+  padding-right: 10px;
+  box-shadow: 0px 0px 30px 0px rgb(255, 255, 255);
   /* width */
   /* Track */
   /* Handle */
@@ -200,7 +201,7 @@
 }
 .service-desc .content .inner {
   border-radius: 10px;
-  padding: 30px;
+  padding: 10px;
   border: 1px solid #2c4999;
 }
 .service-desc .content h3 {
