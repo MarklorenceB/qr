@@ -108,7 +108,13 @@
                 placeholder="Early service to end of service"
               ></textarea>
               <div class="btn">
-                <button class="btn-submit">submit</button>
+                <div id="overlay" class="overlay"></div>
+                <div class="btn-submit" onclick="showPopup()">
+                  <a href="#">submit</a>
+                </div>
+                <div id="successPopup" class="popup">
+                  Uploaded Successfully!
+                </div>
               </div>
             </div>
           </div>
@@ -137,6 +143,20 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.matchHeight.js"></script>
     <script src="js/main.js"></script>
-    <script type="text/javascript"></script>
+    <script type="text/javascript">
+      function showPopup() {
+        // Display the overlay
+        document.getElementById("overlay").style.display = "block";
+
+        // Display the success popup
+        document.getElementById("successPopup").style.display = "block";
+
+        // Hide the overlay and popup after a delay (e.g., 2 seconds)
+        setTimeout(function () {
+          document.getElementById("overlay").style.display = "none";
+          document.getElementById("successPopup").style.display = "none";
+        }, 2000); // 2000 milliseconds = 2 seconds
+      }
+    </script>
   </body>
 </html>

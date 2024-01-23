@@ -527,9 +527,11 @@ header {
           border-radius: 5px;
           width: 40%;
           border: none;
-          text-transform: uppercase;
-          font-weight: bold;
-          color: #fff;
+          a {
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #fff;
+          }
         }
       }
     }
@@ -570,9 +572,11 @@ header {
           border-radius: 5px;
           width: 250px;
           border: none;
-          text-transform: uppercase;
-          font-weight: bold;
-          color: #fff;
+          a {
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #fff;
+          }
         }
       }
     }

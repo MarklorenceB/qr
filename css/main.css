@@ -508,6 +508,8 @@ header {
   border-radius: 5px;
   width: 40%;
   border: none;
+}
+.home-banner-upload .wrapper .descript-form form .btn-submit a {
   text-transform: uppercase;
   font-weight: bold;
   color: #fff;
@@ -552,6 +554,8 @@ header {
   border-radius: 5px;
   width: 250px;
   border: none;
+}
+.home-banner-upload .wrapper .descript-form2 .btn .btn-submit a {
   text-transform: uppercase;
   font-weight: bold;
   color: #fff;
