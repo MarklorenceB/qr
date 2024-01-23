@@ -104,7 +104,15 @@
                 <span>Upload from Computer</span>
                 <div class="head-upload">
                   <h5>Choose files to upload</h5>
-                  <a href="#">Browse files</a>
+                  <button onclick="browseFile()">Browse File</button>
+
+                  <!-- Hidden file input element -->
+                  <input
+                    type="file"
+                    id="fileInput"
+                    style="display: none"
+                    onchange="uploadFile(this)"
+                  />
                 </div>
                 <div class="drop-wrapper">
                   <div class="drop-zone z-top pink-dashed-border">
@@ -188,11 +196,20 @@
                 </div>
 
                 <div class="description">
-                  <p>Brief description of picture</p>
+                  <form>
+                    <input
+                      type="text"
+                      placeholder="Brief description of picture"
+                    />
+                  </form>
                 </div>
 
-                <div class="btn-submit">
+                <div id="overlay" class="overlay"></div>
+                <div class="btn-submit" onclick="showPopup()">
                   <a href="#">submit</a>
+                </div>
+                <div id="successPopup" class="popup">
+                  Uploaded Successfully!
                 </div>
               </div>
             </div>
@@ -226,6 +243,19 @@
     <script type="text/javascript"></script>
 
     <script type="text/javascript">
+      function showPopup() {
+        // Display the overlay
+        document.getElementById("overlay").style.display = "block";
+
+        // Display the success popup
+        document.getElementById("successPopup").style.display = "block";
+
+        // Hide the overlay and popup after a delay (e.g., 2 seconds)
+        setTimeout(function () {
+          document.getElementById("overlay").style.display = "none";
+          document.getElementById("successPopup").style.display = "none";
+        }, 2000); // 2000 milliseconds = 2 seconds
+      }
       document.querySelectorAll(".drop-zone__input").forEach((inputElement) => {
         const dropZoneElement = inputElement.closest(".drop-zone");
 
@@ -261,6 +291,24 @@
           dropZoneElement.classList.remove("drop-zone--over");
         });
       });
+
+      function browseFile() {
+        // Trigger click on the hidden file input element
+        document.getElementById("fileInput").click();
+      }
+
+      function uploadFile(input) {
+        // Get the selected file
+        const file = input.files[0];
+
+        // You can add additional logic here to handle the uploaded file
+
+        // For now, let's just log the file information to the console
+        if (file) {
+          console.log("File selected:", file.name);
+          console.log("File size:", file.size, "bytes");
+        }
+      }
 
       /**
        * Updates the thumbnail on a drop zone element.

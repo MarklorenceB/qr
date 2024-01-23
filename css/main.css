@@ -244,13 +244,14 @@ header {
   color: #555a6b;
   font-weight: normal;
 }
-.home-banner .wrapper .content-2 .head-upload a {
+.home-banner .wrapper .content-2 .head-upload button {
   background-color: #bd1733;
-  padding: 15px 25px;
+  padding: 13px 25px;
   border-radius: 5px;
   color: #fff;
   font-weight: bold;
   font-size: 15px;
+  border: none;
 }
 .home-banner .wrapper .content-2 .drop-wrapper {
   padding: 30px 20px;
@@ -386,11 +387,18 @@ header {
   padding: 20px;
   border-radius: 5px;
 }
-.home-banner .wrapper .content-2 .description p {
-  color: #555a6b;
-  font-size: 20px;
+.home-banner .wrapper .content-2 .description form input {
+  border: none;
+  width: 100%;
+  font-size: 15px;
   font-family: "Samsung Sharp Sans", sans-serif;
   font-weight: 500;
+}
+.home-banner .wrapper .content-2 .description form input::-moz-placeholder {
+  color: #4e5260;
+}
+.home-banner .wrapper .content-2 .description form input::placeholder {
+  color: #4e5260;
 }
 .home-banner .wrapper .content-2 .btn-submit {
   background-color: #bd1733;
@@ -772,4 +780,28 @@ header {
 
 .m-view {
   display: none;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  z-index: 998; /* Ensure the overlay is behind the popup but above the page content */
 }/*# sourceMappingURL=main.css.map */
