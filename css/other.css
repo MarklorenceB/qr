@@ -59,7 +59,7 @@
   height: 350px;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 20px;
+  border-radius: 7px;
   box-shadow: 0px 0px 30px 0px rgb(255, 255, 255);
   border: 3px solid #fff;
 }
@@ -104,7 +104,7 @@
   height: 100%;
   width: 100%;
   background-color: #000;
-  opacity: 0.4;
+  opacity: 0.5;
   position: absolute;
   top: 0;
   left: 0;
@@ -125,6 +125,52 @@
   top: 120px;
 }
 .profile-blocks .profile-wrapper .vid-button img {
+  width: 80px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.profile-blocks2 .profile-wrapper {
+  min-height: 200px;
+  padding: 20px;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border: 3px solid #fff;
+  position: relative;
+  box-shadow: 0px 25px 30px 0px rgb(255, 255, 255);
+}
+.profile-blocks2 .profile-wrapper:before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: rgb(128, 128, 128);
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.profile-blocks2 .profile-wrapper h3 {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 35px;
+  position: relative;
+  z-index: 20;
+  font-weight: 600;
+  line-height: 45px;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.profile-blocks2 .profile-wrapper .vid-button {
+  position: absolute;
+  top: 120px;
+}
+.profile-blocks2 .profile-wrapper .vid-button img {
   width: 80px;
   -o-object-fit: contain;
      object-fit: contain;
@@ -179,8 +225,7 @@
 .service-desc {
   overflow-y: auto;
   max-height: 550px;
-  padding-right: 10px;
-  box-shadow: 0px 0px 30px 0px rgb(255, 255, 255);
+  padding: 20px;
   /* width */
   /* Track */
   /* Handle */
@@ -196,21 +241,24 @@
 }
 .service-desc .content {
   background-color: #fff;
-  padding: 15px;
+  padding: 25px;
   border-radius: 10px;
+  box-shadow: 0px 7px 29px -7px rgba(255, 255, 255, 0.9), inset 0 0 10px rgba(128, 128, 128, 0.5); /* Inner shadow with gray color */
 }
-.service-desc .content .inner {
+.service-desc .inner {
   border-radius: 10px;
   padding: 10px;
   border: 1px solid #2c4999;
 }
-.service-desc .content h3 {
+.service-desc h3 {
   font-size: 35px;
   font-family: "Bebas Neue", sans-serif;
   margin-bottom: 20px;
   font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
 }
-.service-desc .content p {
+.service-desc p {
   font-size: 14px;
   font-family: "Sharp Sans", sans-serif;
   color: #707070;

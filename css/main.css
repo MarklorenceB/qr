@@ -408,11 +408,11 @@ header {
   text-align: center;
   border-radius: 5px;
   width: 50%;
-}
-.home-banner .wrapper .content-2 .btn-submit a {
+  cursor: pointer;
   text-transform: uppercase;
   font-weight: bold;
   color: #fff;
+  border: none;
 }
 
 .home-banner-upload {
@@ -508,8 +508,7 @@ header {
   border-radius: 5px;
   width: 40%;
   border: none;
-}
-.home-banner-upload .wrapper .descript-form form .btn-submit a {
+  cursor: pointer;
   text-transform: uppercase;
   font-weight: bold;
   color: #fff;
@@ -554,8 +553,7 @@ header {
   border-radius: 5px;
   width: 250px;
   border: none;
-}
-.home-banner-upload .wrapper .descript-form2 .btn .btn-submit a {
+  cursor: pointer;
   text-transform: uppercase;
   font-weight: bold;
   color: #fff;
