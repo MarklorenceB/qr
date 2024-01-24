@@ -103,7 +103,10 @@
     text-align: center;
     margin-bottom: 30px !important;
   }
-
+  .home-banner .wrapper .content-2 .head-upload button {
+    padding: 15px 20px;
+    font-size: 12px;
+  }
   .home-banner .wrapper .content .btn-home .btn-login a {
     width: 100% !important;
   }
@@ -126,6 +129,9 @@
     border-radius: 10px;
     font-size: 15px;
     padding: 13px;
+  }
+  .popup {
+    font-size: 12px;
   }
   .signup {
     padding-top: 180px;
