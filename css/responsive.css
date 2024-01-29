@@ -22,6 +22,16 @@
   .common-conntent-block .profile-wrapper {
     width: 350px;
   }
+  .h-auto2 {
+    height: auto;
+  }
+
+  .custom-col {
+    width: 50% !important; /* Override the column width to take up the full width */
+  }
+  .home-banner-upload .wrapper .content .upload-list .list {
+    margin-bottom: 30px;
+  }
 }
 
 @media (max-width: 768px) {
