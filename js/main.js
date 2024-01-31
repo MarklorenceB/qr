@@ -54,6 +54,9 @@ $(function () {
 $(function () {
   $(".list").matchHeight({ byRow: false });
 });
+$(function () {
+  $(".upload-list ").matchHeight({ byRow: false });
+});
 
 // for toggle button on header
 $(".navbar-toggler").on("click", function (e) {

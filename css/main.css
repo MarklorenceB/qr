@@ -161,6 +161,23 @@ header {
   height: 110vh;
   padding-top: 250px;
 }
+.home-banner .back-btn {
+  background-color: #bd1733;
+  font-size: 23px;
+  font-family: "Sharp Sans", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 15px 20px;
+  line-height: 1;
+  border-radius: 10px;
+  color: #fff;
+}
 .home-banner .wrapper {
   align-items: center;
 }
@@ -220,10 +237,11 @@ header {
 }
 .home-banner .wrapper .content-2 h1 {
   color: #fff;
-  font-size: 60px;
+  font-size: 53px;
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   margin-bottom: 15px;
+  margin-top: 20px;
 }
 .home-banner .wrapper .content-2 span {
   color: #fff;
@@ -426,6 +444,23 @@ header {
   padding-top: 250px;
   min-height: 100vh;
   position: relative;
+}
+.home-banner-upload .back-btn {
+  background-color: #bd1733;
+  font-size: 23px;
+  font-family: "Sharp Sans", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 15px 20px;
+  line-height: 1;
+  border-radius: 10px;
+  color: #fff;
 }
 .home-banner-upload .wrapper {
   align-items: center;

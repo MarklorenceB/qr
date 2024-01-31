@@ -12,6 +12,9 @@
   .common-conntent-block .profile-wrapper {
     width: 250px;
   }
+  .h-auto-3 {
+    height: auto !important;
+  }
 }
 
 @media (max-width: 991px) {
@@ -25,7 +28,9 @@
   .h-auto2 {
     height: auto;
   }
-
+  .h-auto-3 {
+    height: auto !important;
+  }
   .custom-col {
     width: 50% !important; /* Override the column width to take up the full width */
   }
@@ -324,9 +329,7 @@
   .home-banner-upload .wrapper .content .upload-list .list p {
     font-size: 14px;
   }
-  .home-banner-upload .wrapper .content .upload-list .list {
-    height: 150px !important;
-  }
+
   .navbar-brand {
     text-align: center;
   }
@@ -420,6 +423,12 @@
   .profile-blocks2 .profile-wrapper {
     min-height: 110px;
   }
+  .home-banner .back-btn {
+    font-size: 12px;
+  }
+  .home-banner-upload .back-btn {
+    font-size: 12px;
+  }
 }
 @media (max-width: 500px) {
   .profile-blocks2 .profile-wrapper h3 {
@@ -437,5 +446,8 @@
   }
   .profile-blocks2 .profile-wrapper {
     min-height: 130px;
+  }
+  .home-banner-upload .wrapper .content .upload-list .list {
+    height: auto !important;
   }
 }

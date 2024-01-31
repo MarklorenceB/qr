@@ -164,6 +164,22 @@ header {
   background-size: cover;
   height: 110vh;
   padding-top: 250px;
+  .back-btn {
+    background-color: #bd1733;
+    font-size: 23px;
+    font-family: "Sharp Sans", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    width: fit-content;
+    padding: 15px 20px;
+    line-height: 1;
+    border-radius: 10px;
+    color: #fff;
+  }
   .wrapper {
     align-items: center;
 
@@ -228,10 +244,11 @@ header {
     .content-2 {
       h1 {
         color: #fff;
-        font-size: 60px;
+        font-size: 53px;
         font-weight: bold;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         margin-bottom: 15px;
+        margin-top: 20px;
       }
       span {
         color: #fff;
@@ -450,6 +467,22 @@ header {
   padding-top: 250px;
   min-height: 100vh;
   position: relative;
+  .back-btn {
+    background-color: #bd1733;
+    font-size: 23px;
+    font-family: "Sharp Sans", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    width: fit-content;
+    padding: 15px 20px;
+    line-height: 1;
+    border-radius: 10px;
+    color: #fff;
+  }
   .wrapper {
     align-items: center;
 
