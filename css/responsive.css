@@ -15,6 +15,9 @@
   .h-auto-3 {
     height: auto !important;
   }
+  .h-auto2 {
+    height: auto !important;
+  }
 }
 
 @media (max-width: 991px) {
