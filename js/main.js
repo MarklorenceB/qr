@@ -55,7 +55,7 @@ $(function () {
   $(".list").matchHeight({ byRow: false });
 });
 $(function () {
-  $(".upload-list ").matchHeight({ byRow: false });
+  $(".upload-list .list ").matchHeight({ byRow: false });
 });
 
 // for toggle button on header
