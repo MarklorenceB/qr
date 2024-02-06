@@ -332,6 +332,9 @@
   .home-banner-upload .wrapper .content .upload-list .list p {
     font-size: 12px;
   }
+  .home-banner-upload .wrapper .content .upload-list .list {
+    padding: 25px !important;
+  }
 
   .navbar-brand {
     text-align: center;
