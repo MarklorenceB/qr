@@ -18,6 +18,9 @@
   .h-auto2 {
     height: auto !important;
   }
+  .home-banner .wrapper .content .btn-home .btn-login {
+    width: 50%;
+  }
 }
 
 @media (max-width: 991px) {
@@ -39,6 +42,9 @@
   }
   .home-banner-upload .wrapper .content .upload-list .list {
     margin-bottom: 30px;
+  }
+  .home-banner .wrapper .content .btn-home .btn-login {
+    width: auto;
   }
 }
 
