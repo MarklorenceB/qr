@@ -233,7 +233,7 @@
 
   .civilian-profile .profile-image {
     width: 70%;
-    height: 400px;
+    height: 300px;
     object-fit: cover;
   }
   .civilian-profile h2 {
