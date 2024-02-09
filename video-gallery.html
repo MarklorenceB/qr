@@ -92,49 +92,60 @@
     <main>
       <!-- FOR SECTIONS -->
 
-      <section
-        class="home-banner-upload album-section h-auto2 home-2"
-        style="background-image: url(images/web2.png)"
-      >
+      <section class="video-gallery d-view">
         <div class="container w-100 z-top">
-          <div class="mb-3">
-            <a href="upload-page-latest.html" class="back-btn">
-              <img src="images/data/back.png" alt="" />
-              Back
-            </a>
+          <h1>Civilian Videos</h1>
+          <div class="wrapper">
+            <div class="vid-list">
+              <img src="images/vid-gal.png" alt="" />
+            </div>
+
+            <div class="vid-list">
+              <img src="images/vid-gal.png" alt="" />
+            </div>
+
+            <div class="vid-list">
+              <img src="images/vid-gal.png" alt="" />
+            </div>
           </div>
-          <div class="row wrapper">
-            <div class="col-lg-7">
-              <div class="descript-form">
-                <h1>family history</h1>
-                <form>
-                  <label> Date of Birth : </label>
-                  <input type="text" placeholder="Add Text Here |" />
 
-                  <label> Address :</label>
-                  <input type="text" placeholder="Add Text Here |" />
+          <div class="wrapper">
+            <div class="vid-list">
+              <img src="images/vid-gal.png" alt="" />
+            </div>
 
-                  <label>Adult History</label>
-                  <textarea
-                    name=""
-                    id=""
-                    cols="30"
-                    rows="7"
-                    placeholder="Add Text Here |"
-                  ></textarea>
+            <div class="vid-list">
+              <img src="images/vid-gal.png" alt="" />
+            </div>
 
-                  <div id="overlay" class="overlay"></div>
+            <div class="vid-list">
+              <img src="images/vid-gal.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
 
-                  <a href="#">
-                    <div class="btn-submit" onclick="showPopup()">
-                      submit
-                    </div></a
-                  >
-                  <div id="successPopup" class="popup">
-                    Uploaded Successfully!
-                  </div>
-                </form>
-              </div>
+      <section class="gallery-mobile h-auto-gal m-view">
+        <div class="container w-100 z-top">
+          <div class="wrapper">
+            <div class="main-video">
+              <img src="images/vid-gal.png" alt="" />
+            </div>
+            <h1>Civilian Videos</h1>
+
+            <div class="vid-list">
+              <img src="images/vid-gal.png" alt="" />
+              <h2>Civilian Videos 2</h2>
+            </div>
+
+            <div class="vid-list">
+              <img src="images/vid-gal.png" alt="" />
+              <h2>Civilian Videos 3</h2>
+            </div>
+
+            <div class="vid-list">
+              <img src="images/vid-gal.png" alt="" />
+              <h2>Civilian Videos 4</h2>
             </div>
           </div>
         </div>
@@ -162,20 +173,6 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.matchHeight.js"></script>
     <script src="js/main.js"></script>
-    <script type="text/javascript">
-      function showPopup() {
-        // Display the overlay
-        document.getElementById("overlay").style.display = "block";
-
-        // Display the success popup
-        document.getElementById("successPopup").style.display = "block";
-
-        // Hide the overlay and popup after a delay (e.g., 2 seconds)
-        setTimeout(function () {
-          document.getElementById("overlay").style.display = "none";
-          document.getElementById("successPopup").style.display = "none";
-        }, 2000); // 2000 milliseconds = 2 seconds
-      }
-    </script>
+    <script type="text/javascript"></script>
   </body>
 </html>

@@ -93,7 +93,7 @@
       <!-- FOR SECTIONS -->
 
       <section
-        class="home-banner h-auto-3 home-2"
+        class="home-banner homecustom h-auto-3 home-2"
         style="background-image: url(images/web2.png)"
       >
         <div class="container">
@@ -107,26 +107,16 @@
             <div class="col-lg-6">
               <div class="content-2">
                 <h1>Upload service videos here</h1>
-                <span>Upload from Computer</span>
-                <div class="head-upload">
-                  <h5>Choose files to upload</h5>
-                  <button onclick="browseFile()">Browse File</button>
 
-                  <!-- Hidden file input element -->
-                  <input
-                    type="file"
-                    id="fileInput"
-                    style="display: none"
-                    onchange="uploadFile(this)"
-                  />
-                </div>
                 <div class="drop-wrapper">
                   <div class="drop-zone z-top pink-dashed-border">
-                    <img src="images/upload.png" alt="" />
+                    <h3 class="custom-1">You can upload video</h3>
+                    <h4>Click on the button or Drag&Drop Files here</h4>
 
-                    <h3>Drag and drop files here</h3>
-                    <h4>or</h4>
-                    <span class="drop-zone__prompt">Browse files</span>
+                    <span class="drop-zone__prompt2">
+                      <img src="images/Group 107.png" alt="" />Upload
+                      Video</span
+                    >
                     <input
                       type="file"
                       name="myFile"
@@ -135,9 +125,9 @@
                       onchange="handleFileUpload()"
                     />
                   </div>
-                  <div class="drop-details text-center z-top">
+                  <!-- <div class="drop-details text-center z-top">
                     <p>From Childhood to adulthood Family Picture</p>
-                  </div>
+                  </div> -->
 
                   <!-- <div class="upload-container">
                     <input
@@ -153,11 +143,11 @@
                 <div class="upload-container-2">
                   <div class="download-1">
                     <div class="prof">
-                      <img src="images/sample-img.png" alt="" />
+                      <img src="images/vidplay.png" alt="" />
                     </div>
                     <div class="name-con">
                       <div class="name">
-                        <h3>johnsmith.jpg</h3>
+                        <h3>jTungchivo-avatar.mp4</h3>
                         <h4>(428KB)</h4>
                       </div>
                     </div>
@@ -170,11 +160,11 @@
 
                   <div class="download-2">
                     <div class="prof">
-                      <img src="images/sample3.png" alt="" />
+                      <img src="images/vidplay.png" alt="" />
                     </div>
                     <div class="graph">
                       <div class="name">
-                        <h3>johnsmith.jpg</h3>
+                        <h3>Tungchivo-avatar.mp4</h3>
                         <h4>(428KB)</h4>
                       </div>
                       <img src="images/bar.png" alt="" />
@@ -199,15 +189,6 @@
                       </div>
                     </div>
                   </div> -->
-                </div>
-
-                <div class="description">
-                  <form>
-                    <input
-                      type="text"
-                      placeholder="Brief description of picture"
-                    />
-                  </form>
                 </div>
 
                 <div id="overlay" class="overlay"></div>

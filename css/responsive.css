@@ -50,10 +50,74 @@
 
 @media (max-width: 768px) {
   .h-auto {
-    height: 110vh !important;
+    height: 100vh !important;
     padding: 200px 20px;
   }
-
+  .h-auto-gal {
+    height: auto;
+  }
+  .gallery-mobile {
+    padding-top: 120px;
+    padding-bottom: 20px;
+  }
+  .service-pix .wrapper .images-slider .pix-slider {
+    margin-top: -150px;
+  }
+  .service-pix .wrapper .images-slider h1 {
+    font-size: 35px;
+  }
+  .service-pix .wrapper .images-slider .pix-slider .owl-dots {
+    margin-top: -450px;
+  }
+  .service-pix .wrapper .images-slider .pix-slider .owl-dots .owl-dot {
+    border: none;
+    background-color: #fff;
+  }
+  .album-section .row-list li a {
+    padding: 0 0px 5px;
+    text-align: center;
+  }
+  .service-desc {
+    max-height: 480px;
+  }
+  .home-banner-upload .wrapper .descript-form2 textarea {
+    height: 320px;
+  }
+  .album-section .row-list li img {
+    height: 130px;
+    width: 120px;
+    object-fit: cover;
+  }
+  .home-banner .wrapper .content-2 .head-upload {
+    padding: 5px 5px 5px 10px;
+  }
+  .home-banner .wrapper .content-2 .drop-wrapper h3 {
+    margin: 0;
+  }
+  .owl-item {
+    margin-right: 0;
+  }
+  .service-pix {
+    padding: 70px 0;
+    overflow-y: hidden;
+    background-color: #e4e4e4;
+    height: auto;
+  }
+  .service-pix .wrapper .images-slider .pix-slider .owl-stage-outer {
+    height: 10%;
+    overflow-y: hidden !important;
+  }
+  .service-pix .wrapper .images-slider ul img {
+    object-fit: cover;
+    margin-top: 150px;
+    height: 50px;
+  }
+  .item img {
+    height: 350px !important;
+  }
+  .owl-item.active {
+    margin: 0 -15px;
+  }
   .h-auto2 {
     height: auto;
     padding: 200px 20px;
@@ -138,8 +202,11 @@
     margin-bottom: 30px !important;
   }
   .home-banner .wrapper .content-2 .head-upload button {
-    padding: 15px 20px;
+    padding: 5px 15px;
     font-size: 12px;
+  }
+  .home-banner .wrapper .content-2 .drop-wrapper .drop-zone img {
+    width: 30px;
   }
   .home-banner .wrapper .content .btn-home .btn-login a {
     width: 100% !important;
@@ -178,10 +245,13 @@
     background-color: transparent;
   }
   .signup .wrapper .form form input {
-    padding: 15px;
+    padding: 10px;
   }
   .signup .wrapper .form form input::placeholder {
-    font-size: 14px;
+    font-size: 13px;
+  }
+  .signup .wrapper .form form button {
+    padding: 15px;
   }
   .signup .wrapper .form form p {
     font-size: 14px;
@@ -193,37 +263,42 @@
     display: none;
   }
   .album-section {
-    padding: 150px 10px;
+    padding-top: 100px;
+    padding-bottom: 1px;
+    /* height: 120vh; */
   }
   .album-section .section-heading {
-    font-size: 25px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: -30px;
   }
   .custom-col {
     width: 50% !important; /* Override the column width to take up the full width */
   }
   .album-section .row-list li h3 {
-    font-size: 15px;
+    font-size: 13px;
   }
   .album-inner-content .profile {
     display: grid;
     justify-content: center;
 
-    height: 250px;
+    height: 150px;
     margin: auto;
-    max-width: 180px;
+    max-width: 120px;
+    object-fit: cover;
   }
   .album-inner-content .content h2 {
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 20px;
     font-weight: bold;
   }
   .album-inner-content .content h3 {
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
   }
   .album-inner-content .content p {
-    font-size: 15px;
+    font-size: 10px;
   }
 
   .section-1 {
@@ -232,41 +307,59 @@
   }
 
   .civilian-profile .profile-image {
-    width: 70%;
-    height: 300px;
+    /* width: 40%; */
+    height: 180px;
+    width: 150px !important;
     object-fit: cover;
   }
+  .civilian-profile {
+    margin-bottom: 10px;
+    margin-top: -35px;
+  }
   .civilian-profile h2 {
-    font-size: 30px;
+    font-size: 15px;
   }
   .civilian-profile h3 {
-    font-size: 20px;
+    font-size: 13px;
   }
 
   .prof-1 {
     background-position: center center;
     background-image: url(".././images/prof.png") !important;
-    height: auto;
   }
   .common-conntent-block {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
   }
   .profile-blocks .profile-wrapper {
-    width: 160px;
-    min-height: 150px;
+    width: 110px;
+    min-height: 120px;
+  }
+  .custom-column {
+    width: 30%;
   }
   .profile-blocks .profile-wrapper h3 {
-    font-size: 15px !important;
+    font-size: 10px !important;
     line-height: 1.2;
   }
   .back-btn {
-    font-size: 12px;
+    font-size: 10px !important;
+    padding: 10px !important;
   }
 
   .back-btn img {
-    width: 25px;
+    width: 20px !important;
+  }
+  /* .home-banner {
+    overflow-y: hidden !important;
+  } */
+  .home-banner .wrapper .content-2 .btn-submit {
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .home-banner .wrapper .content-2 .drop-wrapper {
+    padding: 10px;
   }
   .service-desc .content p {
     font-size: 10px;
@@ -276,23 +369,48 @@
     text-align: center;
   }
   .image-frame img {
-    height: 450px;
+    height: 350px;
   }
   .profile-blocks .profile-wrapper .vid-button {
-    top: 50px;
+    top: 40px;
   }
   .profile-blocks .profile-wrapper .vid-button img {
-    width: 50px;
+    width: 30px;
   }
   .home-banner {
-    padding-top: 160px !important;
+    padding-top: 100px !important;
+    padding-bottom: 50px;
+  }
+  .homecustom {
+    padding-top: 100px !important;
+    padding-bottom: 130px !important;
   }
   .home-banner .wrapper .content-2 h1 {
-    font-size: 30px;
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+  }
+  .home-banner .wrapper .content-2 .drop-wrapper .custom-1 {
+    font-size: 20px;
+  }
+  .home-banner .wrapper .content-2 .drop-wrapper h4 {
+    font-size: 10px;
+  }
+  .home-banner .wrapper .content-2 .drop-wrapper .drop-zone__prompt2 {
+    width: 60%;
+    padding: 7px;
+    font-size: 12px;
+    align-items: center;
+  }
+  .home-banner .wrapper .content-2 .drop-wrapper .drop-zone__prompt {
+    margin-bottom: 5px;
+  }
+  .home-banner .wrapper .content-2 .drop-wrapper .drop-zone__prompt2 img {
+    width: 30px;
   }
 
   .h-auto {
-    padding-top: 160px !important;
+    padding-top: 120px !important;
     padding-left: 35px !important;
     padding-right: 35px !important;
   }
@@ -320,23 +438,25 @@
     font-size: 15px;
   }
   .home-banner-upload .wrapper .content h1 {
-    font-size: 35px;
+    font-size: 25px;
     text-align: center;
   }
   .home-banner-upload {
-    padding-top: 150px;
+    padding-top: 100px;
+    padding-bottom: 20px;
   }
   .home-banner-upload .wrapper .content .upload-list {
     margin-bottom: 0;
   }
   .home-banner-upload .wrapper .content .upload-list .list {
-    margin-bottom: 20px !important;
+    margin-bottom: 10px !important;
+    height: 110px !important;
   }
   .home-banner-upload .wrapper .content .upload-list .list h2 {
-    font-size: 18px;
+    font-size: 15px;
   }
   .home-banner-upload .wrapper .content .upload-list .list p {
-    font-size: 12px;
+    font-size: 10px;
   }
   .home-banner-upload .wrapper .content .upload-list .list {
     padding: 25px !important;
@@ -352,7 +472,7 @@
     font-size: 12px;
   }
   .home-banner .wrapper .content-2 .head-upload h5 {
-    font-size: 15px;
+    font-size: 12px;
   }
   .home-banner .wrapper .content-2 .head-upload a {
     text-align: center;
@@ -364,10 +484,39 @@
   }
   .home-banner .wrapper .content-2 .drop-wrapper .drop-zone__prompt {
     width: 50%;
-    font-size: 12px;
+    font-size: 8px;
+    padding: 10px;
+  }
+  .home-banner .wrapper .content-2 .drop-wrapper {
+    margin-top: 10px;
   }
   .home-banner-upload .wrapper .descript-form h1 {
-    font-size: 40px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .home-banner-upload .wrapper .descript-form form input {
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+  .home-banner .wrapper .content-2 .upload-container-2 .download-2 h4 {
+    font-size: 10px;
+  }
+  .home-banner .wrapper .content-2 .upload-container-2 {
+    margin-top: 10px;
+  }
+  .home-banner .wrapper .content-2 .description {
+    margin-top: 10px;
+  }
+  /* .home-banner-upload .wrapper {
+    margin-top: -30px;
+  } */
+  .home-banner-upload .wrapper .descript-form form textarea {
+    height: 130px;
+  }
+  .home-banner-upload .wrapper .descript-form form .btn-submit {
+    padding: 15px;
+    margin-top: 10px;
   }
 
   .home-banner-upload .wrapper .descript-form form .btn-submit {
@@ -378,13 +527,14 @@
     font-size: 15px;
   }
   .home-banner-upload .wrapper .descript-form2 h1 {
-    font-size: 35px;
+    font-size: 30px;
   }
   .home-banner-upload .wrapper .descript-form2 textarea::placeholder {
     font-size: 15px;
   }
   .home-banner-upload .wrapper .descript-form2 .btn .btn-submit {
     width: 300px;
+    padding: 15px;
   }
 
   .home-banner
@@ -399,13 +549,16 @@
     font-size: 12px;
   }
   .home-banner .wrapper .content-2 .upload-container-2 .download-1 {
-    padding: 20px 15px;
+    padding: 10px 15px;
   }
   .home-banner .wrapper .content-2 .upload-container-2 .download-2 {
-    padding: 20px 15px;
+    padding: 10px 15px;
   }
   .home-banner .wrapper .content-2 .upload-container-2 .download-1 .name-con {
     width: auto;
+  }
+  .home-banner .wrapper .content-2 .description {
+    padding: 5px 10px;
   }
   .home-banner
     .wrapper
@@ -417,7 +570,7 @@
     gap: 10px;
   }
   .home-banner .wrapper .content-2 .upload-container-2 .download-2 h3 {
-    font-size: 12px;
+    font-size: 10px;
   }
   .home-banner
     .wrapper
@@ -441,14 +594,36 @@
   .home-banner-upload .back-btn {
     font-size: 12px;
   }
+  .gallery-mobile .wrapper .main-video img {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .gallery-mobile h1 {
+    font-size: 20px;
+  }
+  .gallery-mobile .wrapper .vid-list img {
+    width: 50%;
+    height: 90px;
+    object-fit: cover;
+  }
+  .gallery-mobile .wrapper .vid-list h2 {
+    font-size: 15px;
+  }
+  .profile-blocks2 .profile-wrapper {
+    margin-bottom: 10px;
+  }
+  .signup .wrapper .form h1 {
+    font-size: 35px;
+  }
 }
 @media (max-width: 500px) {
   .profile-blocks2 .profile-wrapper h3 {
-    font-size: 20px;
+    font-size: 15px;
     line-height: 1.2;
   }
   .profile-blocks2 .profile-wrapper {
-    min-height: 120px;
+    min-height: 50px;
   }
 }
 @media (max-width: 350px) {
