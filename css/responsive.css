@@ -6,11 +6,11 @@
 
 @media (max-width: 1200px) {
   .common-conntent-block {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .common-conntent-block .profile-wrapper {
-    width: 250px;
+    width: 450px;
   }
   .h-auto-3 {
     height: auto !important;
@@ -272,6 +272,9 @@
     margin-bottom: 10px;
     margin-top: -30px;
   }
+  .album-2 {
+    padding-top: 0;
+  }
   .custom-col {
     width: 50% !important; /* Override the column width to take up the full width */
   }
@@ -330,7 +333,12 @@
   .common-conntent-block {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    grid-gap: 20px !important;
+    margin-top: -30px;
+  }
+  .common-conntent-block .profile-wrapper {
+    width: 100px !important;
+    height: 40px !important;
   }
   .profile-blocks .profile-wrapper {
     width: 110px;
