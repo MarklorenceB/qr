@@ -624,6 +624,9 @@
   .signup .wrapper .form h1 {
     font-size: 35px;
   }
+  .mt-2 {
+    margin-top: 5px !important;
+  }
 }
 @media (max-width: 500px) {
   .profile-blocks2 .profile-wrapper h3 {
