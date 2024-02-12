@@ -93,41 +93,42 @@
       <!-- FOR SECTIONS -->
 
       <section
-        class="signup sign-1 h-auto"
-        style="background-image: url(images/signupweb1.png)"
+        class="home-banner h-auto home-4"
+        style="background-image: url(images/web4.png)"
       >
         <div class="container">
           <div class="row wrapper">
             <div class="col-lg-6">
-              <div class="content"></div>
-            </div>
-            <div class="col-lg-6">
-              <div class="form">
-                <h1>SIGN UP</h1>
-                <form>
-                  <input type="email" placeholder="Email" />
-                  <!-- <input type="password" placeholder="Password" /> -->
+              <div class="content">
+                <h1>always</h1>
+                <h1 class="mt">remember</h1>
+                <!-- <p class="d-view">
+                              dON'T HAVE AN ACCOUNT?
+                              <span><a href="signup-web1.html">Sign out</a></span>
+                            </p> -->
 
-                  <div class="password-input">
-                    <input
-                      type="password"
-                      id="password"
-                      name="password"
-                      placeholder="Password"
-                    />
-                    <span class="toggle-password" id="togglePassword"
-                      >&#128065;</span
-                    >
+                <div class="btn-home">
+                  <div class="btn-scan-after m-view">
+                    <img src="images/qr.png" alt="" />
+                    <a href="#">scan qr</a>
                   </div>
-
-                  <p>
-                    ALREADY A MEMBER ?
-                    <span> <a href="login.html"> LOG IN</a></span>
+                  <div class="btn-scan-after d-view">
+                    <img src="images/qr.png" alt="" />
+                    <a href="#">scan qr</a>
+                  </div>
+                  <div class="btn-login-after">
+                    <a href="#">RQR Album</a>
+                  </div>
+                  <p class="m-view">
+                    <span><a href="signup-web1.html">Sign out</a></span>
                   </p>
-                  <button>SIGN UP</button>
-                </form>
+                </div>
+                <p class="d-view mt-5">
+                  <span><a href="signup-web1.html">Sign out</a></span>
+                </p>
               </div>
             </div>
+            <div class="col-lg-6"></div>
           </div>
         </div>
       </section>
@@ -155,22 +156,5 @@
     <script src="js/jquery.matchHeight.js"></script>
     <script src="js/main.js"></script>
     <script type="text/javascript"></script>
-
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const passwordInput = document.getElementById("password");
-        const togglePasswordBtn = document.getElementById("togglePassword");
-
-        togglePasswordBtn.addEventListener("click", function () {
-          const type =
-            passwordInput.getAttribute("type") === "password"
-              ? "text"
-              : "password";
-          passwordInput.setAttribute("type", type);
-          togglePasswordBtn.innerHTML =
-            type === "password" ? "&#128065;" : "&#128064;";
-        });
-      });
-    </script>
   </body>
 </html>
