@@ -53,6 +53,21 @@
   }
   .home-banner-upload .wrapper .content .upload-list .list {
     margin-bottom: 30px;
+    padding-bottom: 50px;
+  }
+  .home-banner-upload .wrapper .content .upload-list {
+    margin-bottom: 40px;
+    width: 500px;
+    align-items: center;
+  }
+  .home-banner-upload .wrapper .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .home-banner-upload .wrapper .content .upload-list .list h2 {
+    font-size: 30px;
   }
   .home-banner .wrapper .content .btn-home .btn-login {
     width: auto;
@@ -64,6 +79,11 @@
 }
 
 @media (max-width: 768px) {
+  .home-banner-upload .wrapper .content .upload-list {
+    margin-bottom: 40px;
+    width: 350px;
+    align-items: center;
+  }
   .image-frame .image-name {
     font-size: 15px;
   }
@@ -629,7 +649,7 @@
     margin-bottom: 0;
   }
   .home-banner-upload .wrapper .content .upload-list .list {
-    margin-bottom: 10px !important;
+    margin-bottom: 20px !important;
     height: 110px !important;
   }
   .home-banner-upload .wrapper .content .upload-list .list h2 {
