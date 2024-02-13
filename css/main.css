@@ -1071,4 +1071,10 @@ header {
 
 .toggle-password:hover {
   color: #333;
+}
+
+.home-def {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 50px;
 }/*# sourceMappingURL=main.css.map */
