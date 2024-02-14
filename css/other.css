@@ -4,9 +4,9 @@
   min-height: 100vh;
   position: relative;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
-  padding: 200px 0 100px;
+  padding:200px 0px 50px;
 }
 .album-section:before {
   content: "";
