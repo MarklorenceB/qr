@@ -821,10 +821,10 @@
   }
 }
 @media (max-width: 500px) {
-  /* .profile-blocks .profile-wrapper h3 {
+  .profile-blocks .profile-wrapper h3 {
     font-size: 16px !important;
     line-height: 1em!important;
-  } */
+  }
   .profile-blocks2 .profile-wrapper h3 {
     font-size: 16px !important;
     line-height: 1em!important;
